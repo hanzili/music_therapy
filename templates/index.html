@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Therapy - Related to Music interventions and Applications of Clinical Music Strategies in Medicine</title>
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+     <div class="top">
+                   <center>
+                    <ul>
+                    <li><a href="http://127.0.0.1:2020/">Home</a></li>
+                    <li><a href="#" onclick = "music()">My Music</a></li>
+                      </ul>
+                    </center>
+            </div>
+    <div class="home">
+        <div class="content">
+            <img class="bgc" src="/static/guitars-g1c8d61001_1920.jpg" width="100%" alt="">
+            <h3 class="title">Music Therapy</h3>
+            <h3 class="secondtitle">Related to Music interventions and Applications of Clinical Music Strategies in Medicine</h3>
+        </div>
+
+        <div class="choosesong">
+            <div class="introduce_item">
+                <img class="choosesong_img" src="/static/people-gfd25d2219_1920.jpg" alt="">
+                <span class="question">What music does the following words remind you of?</span>
+                <input type="text" name="songname" id="songname" class="introduce_item_title"><br>
+            </div>
+            <div class="buttons">
+                <button type="button" class="button" onclick="amusement()">amusement</button>
+                <button type="button" class="button" onclick="anxiety()"> anxiety</button>
+                <button type="button" class="button" onclick="relaxation()">relaxation</button>
+                <button type="button" class="button" onclick="sadness()">sadness</button>
+            </div>
+        </div>
+            <div id="result"></div>
+
+            <script src = "/static/idnex.js"></script>
+</body>
+
+</html>
