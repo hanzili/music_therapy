@@ -1,3 +1,5 @@
+<img width="1324" alt="original" src="https://user-images.githubusercontent.com/96609857/167750582-1a4e4feb-3c87-4300-b947-e5bcc5482608.png">
+
 **Inspiration**
 We love music and we hope more people can be healed by music.
 
